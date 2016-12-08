@@ -1,0 +1,34 @@
+[ec2-user@ip-10-0-0-176 /]$ df -aTh
+Filesystem     Type         Size  Used Avail Use% Mounted on
+rootfs         -               -     -     -    - /
+sysfs          sysfs           0     0     0    - /sys
+proc           proc            0     0     0    - /proc
+devtmpfs       devtmpfs     7.3G     0  7.3G   0% /dev
+securityfs     securityfs      0     0     0    - /sys/kernel/security
+tmpfs          tmpfs        7.2G     0  7.2G   0% /dev/shm
+devpts         devpts          0     0     0    - /dev/pts
+tmpfs          tmpfs        7.2G   25M  7.2G   1% /run
+tmpfs          tmpfs        7.2G     0  7.2G   0% /sys/fs/cgroup
+cgroup         cgroup          0     0     0    - /sys/fs/cgroup/systemd
+pstore         pstore          0     0     0    - /sys/fs/pstore
+cgroup         cgroup          0     0     0    - /sys/fs/cgroup/net_cls
+cgroup         cgroup          0     0     0    - /sys/fs/cgroup/cpu,cpuacct
+cgroup         cgroup          0     0     0    - /sys/fs/cgroup/blkio
+cgroup         cgroup          0     0     0    - /sys/fs/cgroup/freezer
+cgroup         cgroup          0     0     0    - /sys/fs/cgroup/cpuset
+cgroup         cgroup          0     0     0    - /sys/fs/cgroup/hugetlb
+cgroup         cgroup          0     0     0    - /sys/fs/cgroup/perf_event
+cgroup         cgroup          0     0     0    - /sys/fs/cgroup/memory
+cgroup         cgroup          0     0     0    - /sys/fs/cgroup/devices
+configfs       configfs        0     0     0    - /sys/kernel/config
+/dev/xvda2     xfs           30G  9.7G   21G  33% /
+selinuxfs      selinuxfs       0     0     0    - /sys/fs/selinux
+systemd-1      -               -     -     -    - /proc/sys/fs/binfmt_misc
+debugfs        debugfs         0     0     0    - /sys/kernel/debug
+mqueue         mqueue          0     0     0    - /dev/mqueue
+hugetlbfs      hugetlbfs       0     0     0    - /dev/hugepages
+tmpfs          tmpfs        1.5G     0  1.5G   0% /run/user/995
+binfmt_misc    binfmt_misc     0     0     0    - /proc/sys/fs/binfmt_misc
+tmpfs          tmpfs        1.5G     0  1.5G   0% /run/user/0
+cm_processes   tmpfs        7.2G   27M  7.2G   1% /run/cloudera-scm-agent/process
+tmpfs          tmpfs        1.5G     0  1.5G   0% /run/user/1000
