@@ -1,0 +1,13 @@
+Finally Done with CM & Cluster Installation.
+Came across given issue & fix
+
+-AWS Default VPC has permission issue, have to create new VPC to host cluster Instance
+-MySQL Installation - ran into multiple issue related to Permission, DML Syntax, Grant etc. - solved through going back to MySQL Documentation
+-On Launching CM has MySQL DB server login Issue - Solved by logging as root are recreating DB/User again, this solved problem
+-While Running CM ran into YARN install NM failure - Solved by fixing permission issue on Yarn folder /var/lib/hadoop-yarn on all host
+-Next ran into oOzie issue - Solved by Running Create DB script
+-Last Issue was on Hive - Solved again by running the DB creation from CM
+-Finally all up & running, Please find the CM Home Screenshot image
+
+https://cloud.githubusercontent.com/assets/24378596/20964438/82300cea-bcac-11e6-9554-6a1d0279e8f9.png
+
